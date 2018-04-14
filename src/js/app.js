@@ -1,8 +1,8 @@
 require('../css/style.css');
-const people = require('./people.js');
+const pages = require('./pages.js');
 const $ = require('jquery');
 
-$.each(people, (key, value) => {
-  $('body').append('<h1>' + people[key].name + '</h1>');
+$.each(pages, (key, value) => {
+  $('body').append('<h1>' + pages[key].name + '</h1>');
 });
 
