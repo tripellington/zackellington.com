@@ -1,0 +1,14 @@
+[
+  {
+      "grouping":"Languages, Frameworks, Libraries, & Tools",
+      "skills":[ "JavaScript","PHP","Python","Java","SQL/MySQL","HTML5","CSS3","Bash","jQuery","Boostrap",
+            "Wordpress","Laravel","Bulma","Node","Serverless","Webpack", "Git"]
+  },{
+      "grouping":"Systems Administrations & Support",
+      "skills":[ "Ubuntu 16.04","CentOS 7","S3","EC2","Lambda","IAM","DynamoDB"]
+  },
+  {
+      "grouping":"Marketing & Media",
+      "skills":[ "Adobe Photoshop","Adobe Illustrator","Google Adwords"]
+  }
+]
