@@ -1,4 +1,5 @@
 require('../css/style.css');
+require('bulma');
 const pages = require('./pages.js');
 const $ = require('jquery');
 
