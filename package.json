@@ -1,0 +1,32 @@
+{
+  "name": "zackellington.com",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripellington/zackellington.com.git"
+  },
+  "author": "Zack Ellington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tripellington/zackellington.com/issues"
+  },
+  "homepage": "https://github.com/tripellington/zackellington.com#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "style-loader": "^0.20.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
